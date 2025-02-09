@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: azure;
+}
+.items{
+    margin-top: 7px;
+}
+.search{
+    width: 100%;
+    display: flex;
+    height: 27px;
+}
+
+.list{
+    margin-left: 4px;
+}
+
+#search{
+    padding-left: 8px;
+    height: 100%;
+    width: 73%;
+    background-color: white;
+    margin-left: 42px;
+    border-radius: 2px;
+
+}
+
+.container{
+    height: 99vh;
+    width: 99vw;
+    display: flex;
+}
+.left{
+    height:99vh ;
+    width: 25vw;
+    background-color:aliceblue;
+}
+.right{
+    height: 99vh;
+    width: 78vw;
+background:url('image_1.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+}
+.items_name{
+    display: flex;
+    margin-left: 3px;
+    padding-top: 3px;
+    padding-left: 28px;
+    margin-bottom: 6px;
+    height: 29px;
+    width: 88%;
+}
+li{
+    list-style-type: none;
+}
+
+#heading{
+    font-size: x-large;
+    margin-left: 76px;
+    margin-top: 45px;
+}
+
+
+.time{
+    height: 48px;
+    width: 98%;
+    margin-left: 8px;
+}
+.currenTime{
+    padding: 6px;
+    height: 100%;
+    width: 155px;
+    margin-left:57px;
+}
+.icon{
+width: 28px;
+height: 21px;
+margin-top: 4px;
+margin-left: 18%;
+padding: 3px;
+
+position: absolute;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.items_name:hover{
+background-color: whitesmoke;
+width: 100%;
+}
+
+
+
+
+/* for add tasks */
+
+.addTasks{
+    margin-left: 2%;
+    top: 91%;
+    position: absolute;
+    height: 7%;
+    width: 69%;
+    background-color: white;
+    cursor: pointer;
+    display: flex;
+}
+
+.addLogo{
+    width: 7%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.todo{
+    height: 100%;
+    outline: none;
+    border:none;
+    width: 100%;
+    font-size: large;
+    padding-left: 15px;
+}
+
+
+.task{
+    margin-top: -12px;
+    margin-left: 2%;
+    height: 76%;
+    width: 93%;
+overflow-y: auto;
+
+}
+
+
+
+.delete{
+    margin-left: 80%;
+}
+
+
+
+
+
+
+
+
+
+ .task {
+     max-height: 100%;
+ 
+     overflow-y: scroll;
+syntax: scrol;
+      -ms-overflow-style: none; 
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: none; 
+      position: relative; 
+    } 
+    

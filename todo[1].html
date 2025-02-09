@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="todo.css">
+    <title>Vishal ToDo</title>
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="todo.js" defer></script>
+</head>
+<body>
+<div class="container">
+    <div class="left">
+
+        <div class="signin"></div>
+
+        <div class="search">
+            <input type="text" id="search" placeholder="Search">
+<div class="icon"><i class="fa-solid fa-magnifying-glass shift"></i></div>
+        </div>
+        
+<div class="items">
+
+    <div class="My_Day items_name">
+        <i class="fa-solid fa-crosshairs"></i>
+        <li  class="list">Day</a></li>
+    </div>
+
+  <div class="important items_name " onclick="important(this)">
+    <i class="fa-regular fa-star space"></i>
+     <li class="list">Important</li>
+    </div>
+
+<div class="planned items_name">
+    <i class="fa-solid fa-wand-magic-sparkles"></i>
+    <li class="list">Planned</li>
+</div>
+
+ <div class="Assigned_to_me items_name">
+    <i class="fa-solid fa-house"></i>
+    <li class="list">Assigned to me</li>
+ </div>
+
+  <div class="tasks items_name">
+    <i class="fa-regular fa-user"></i>
+    <li class="list"> Tasks</li>
+  </div>
+
+    <hr>
+ 
+</div>
+    </div>
+
+
+
+    <div class="right">
+        <h3 id="heading">My Day</h3>
+        <div class="time">
+            <div class="currenTime"></div>
+            <div class="changeImages change">
+            </div>
+        </div>
+        <div class="task"></div>
+          
+
+
+
+
+<div class="addTasks">
+    <div class="addLogo" onclick="createTaskElement()">
+        <i class="fa fa-plus imp"></i>
+ </div>
+ <input type="text"  placeholder="Add a tasks" class="todo">
+</div>
+
+    </div>
+</div>
+</body>
+</html>
+
